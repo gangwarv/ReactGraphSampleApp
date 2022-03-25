@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "_author": {
+            "bsonType": "string"
+        },
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "price": {
+            "bsonType": "int"
+        },
+        "title": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "title",
+        "price",
+        "_author"
+    ],
+    "title": "Book"
+}
