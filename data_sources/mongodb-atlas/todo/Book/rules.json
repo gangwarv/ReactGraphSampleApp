@@ -15,7 +15,7 @@
             "additional_fields": {}
         },
         {
-            "name": "non-owner",
+            "name": "non-ownerX",
             "apply_when": {},
             "read": true,
             "write": false,
