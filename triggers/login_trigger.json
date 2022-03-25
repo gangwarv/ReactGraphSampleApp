@@ -1,0 +1,19 @@
+{
+    "id": "623ddc35b499caf3221e2aff",
+    "name": "login_trigger",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "CREATE",
+        "providers": [
+            "local-userpass"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "onEmailPasswordAuthCreate"
+            }
+        }
+    }
+}
