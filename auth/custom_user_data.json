@@ -1,3 +1,8 @@
 {
-    "enabled": false
+    "enabled": true,
+    "mongo_service_id": "623c9b3c8ecab3cc301ccf85",
+    "mongo_service_name": "mongodb-atlas",
+    "database_name": "todo",
+    "collection_name": "User",
+    "user_id_field": "user_id"
 }
