@@ -1,0 +1,28 @@
+{
+    "title": "User",
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "age": {
+        "bsonType": "int"
+      },
+      "permissions": {
+        "bsonType": "object",
+        "properties": {
+          "can_read": {
+            "bsonType": "bool"
+          },
+          "can_write": {
+            "bsonType": "bool"
+          },
+          "is_active": {
+            "bsonType": "bool"
+          }
+        }
+      },
+      "user_id": {
+        "bsonType": "string"
+      }
+    }
+  }

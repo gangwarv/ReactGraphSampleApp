@@ -1,0 +1,30 @@
+{
+    "collection": "Task",
+    "database": "todo",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "%%root._partition": "%%user.id"
+            },
+            "fields": {
+                "_id": {
+                    "write": true
+                },
+                "_partition": {
+                    "write": true
+                },
+                "isComplete": {
+                    "write": true
+                },
+                "summary": {
+                    "write": true
+                }
+            },
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

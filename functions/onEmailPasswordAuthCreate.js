@@ -30,8 +30,8 @@ exports = async function(authEvent) {
     Learn more about http client here: https://docs.mongodb.com/realm/functions/context/#context-http
   */
   const mongodb = context.services.get("mongodb-atlas");
-  const users = mongodb.db("todo").collection("users");
+  const users = mongodb.db("todo").collection("User");
   const { user, time } = authEvent;
-  const newUser = { ...user,user_id:user.id,age:21, eventLog: [ { "created": time } ], permissions:{is_active: true, can_read:true, can_write:true} };
+  const newUser = { ...user,user_id:user.id,age:21, eventLog: [ { "created": time } ],  };
   await users.insertOne(newUser);
 };

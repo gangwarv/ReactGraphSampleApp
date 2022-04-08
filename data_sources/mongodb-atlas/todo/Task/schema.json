@@ -12,6 +12,9 @@
         },
         "summary": {
             "bsonType": "string"
+        },
+        "user_id":{
+            "bsonType":"string"
         }
     },
     "required": [
