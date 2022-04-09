@@ -1,5 +1,5 @@
 {
-    "user_id": {
+    "user": {
         "ref": "#/relationship/mongodb-atlas/todo/User",
         "source_key": "user_id",
         "foreign_key": "user_id",
