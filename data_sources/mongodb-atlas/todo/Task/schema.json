@@ -21,7 +21,8 @@
         "_id",
         "summary",
         "isComplete",
-        "_partition"
+        "_partition",
+        "user_id"
     ],
     "title": "Task"
 }
